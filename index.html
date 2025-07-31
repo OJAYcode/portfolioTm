@@ -105,13 +105,13 @@
                         <div class="skill-progress" style="width: 90%"></div>
                     </div>
                 </div>
-                <div class="skill-item" data-percent="75">
+                <div class="skill-item" data-percent="98">
                     <div class="skill-name">
                         <h4>Responsive Design</h4>
-                        <span>75%</span>
+                        <span>98%</span>
                     </div>
                     <div class="skill-bar">
-                        <div class="skill-progress" style="width: 75%"></div>
+                        <div class="skill-progress" style="width: 98%"></div>
                     </div>
                 </div>
                 <div class="skill-item" data-percent="70">
@@ -130,6 +130,15 @@
                     </div>
                     <div class="skill-bar">
                         <div class="skill-progress" style="width: 70%"></div>
+                    </div>
+                </div>
+                <div class="skill-item" data-percent="80">
+                    <div class="skill-name">
+                        <h4>React</h4>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%"></div>
                     </div>
                 </div>
                 <div class="skill-item" data-percent="50">
@@ -152,6 +161,7 @@
             <div class="portfolio-filters">
                 <button class="filter-btn active" data-filter="all">All</button>
                 <button class="filter-btn" data-filter="web">Web Design</button>
+                <button class="filter-btn" data-filter="webapp">Web App</button>
                 <button class="filter-btn" data-filter="encryption">Encryption</button>
             </div>
             <div class="portfolio-grid">
@@ -178,6 +188,17 @@
                         </div>
                     </div>
                 </div>
+                <div class="portfolio-item" data-category="web">
+                    <img src="./images/omie's closet dashboard.png" alt="Omie's Closet E-commerce" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h3>Omie's Closet</h3>
+                        <p>An e-commerce app for a clothing line with WhatsApp integration. Orders are automatically sent to vendor's WhatsApp. Built with React.jsx, TypeScript, and Firebase.</p>
+                        <div class="portfolio-links">
+                            <a href="https://github.com/OJAYcode/Omie-s-Closet"><i class="fas fa-link"></i></a>
+                            <a href="https://omie-s-closet.vercel.app"><i class="fas fa-search"></i></a>
+                        </div>
+                    </div>
+                </div>
                 
                 <!-- App Development Projects -->
                 <div class="portfolio-item" data-category="app">
@@ -191,8 +212,34 @@
                         </div>
                     </div>
                 </div>
-                <div class="portfolio-item" data-category="app">
-                    <img src="/images/encImage.jpg" alt="Project 4" class="portfolio-img">
+                
+                <!-- Web App Projects -->
+                <div class="portfolio-item" data-category="webapp">
+                    <img src="./images/nestshare-dashboard.jpg" alt="NestShare Financial Dashboard" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h3>NestShare</h3>
+                        <p>A comprehensive financial management app for tracking income, creating budgets, setting savings goals, and managing thrift groups. Built with C# and Tailwind CSS.</p>
+                        <div class="portfolio-links">
+                            <a href="https://github.com/OJAYcode/NestShare"><i class="fas fa-link"></i></a>
+                            <a href="https://nest-share.vercel.app"><i class="fas fa-search"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="webapp">
+                    <img src="./images/calsync.png" alt="CalSync Calendar App" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h3>CalSync</h3>
+                        <p>A calendar synchronization app for organizations with React.jsx frontend and Python backend. Features user authentication, event management, and real-time calendar syncing.</p>
+                        <div class="portfolio-links">
+                            <a href="https://github.com/OJAYcode/CalSync"><i class="fas fa-link"></i></a>
+                            <a href="https://cal-sync-pied.vercel.app"><i class="fas fa-search"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Encryption Projects -->
+                <div class="portfolio-item" data-category="encryption">
+                    <img src="./images/encImage.jpg" alt="Project 4" class="portfolio-img">
                     <div class="portfolio-overlay">
                         <h3>Mongodb CSFLE</h3>
                         <p>An encryption for student-app</p>
@@ -202,30 +249,6 @@
                         </div>
                     </div>
                 </div>
-                
-                
-                <!-- <div class="portfolio-item" data-category="encryption">
-                    <img src="project5.jpg" alt="Project 5" class="portfolio-img">
-                    <div class="portfolio-overlay">
-                        <h3>Encryption Algorithm</h3>
-                        <p>A secure encryption method for sensitive data</p>
-                        <div class="portfolio-links">
-                            <a href="#"><i class="fas fa-link"></i></a>
-                            <a href="#"><i class="fas fa-search"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item" data-category="encryption">
-                    <img src="project6.jpg" alt="Project 6" class="portfolio-img">
-                    <div class="portfolio-overlay">
-                        <h3>Secure File Sharing</h3>
-                        <p>End-to-end encrypted file transfer system</p>
-                        <div class="portfolio-links">
-                            <a href="#"><i class="fas fa-link"></i></a>
-                            <a href="#"><i class="fas fa-search"></i></a>
-                        </div>
-                    </div>
-                </div> -->
             </div>
         </div>
     </section>
@@ -256,24 +279,15 @@
                                 <p>oluwoleoluwole82@gmail.com</p>
                             </div>
                         </li>
-                        <li>
-                            <div class="contact-icon">
-                                <i class="fas fa-phone"></i>
-                            </div>
-                            <div>
-                                <h4>Phone</h4>
-                                <p>+234 70151 20076</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="contact-icon">
-                                <i class="fas fa-globe"></i>
-                            </div>
-                            <div>
-                                <h4>Website</h4>
-                                <p>www.yourwebsite.com</p>
-                            </div>
-                        </li>
+                                                 <li>
+                             <div class="contact-icon">
+                                 <i class="fas fa-phone"></i>
+                             </div>
+                             <div>
+                                 <h4>Phone</h4>
+                                 <p>+234 70151 20076</p>
+                             </div>
+                         </li>
                     </ul>
                 </div>
                 <div class="contact-form">
@@ -314,7 +328,7 @@
                 <a href="#"><i class="fab fa-dribbble"></i></a>
                 <a href="#"><i class="fab fa-behance"></i></a>
             </div>
-            <p class="copyright">&copy; 2025 Your Name. All Rights Reserved.</p>
+                         <p class="copyright">&copy; 2025 Jomiloju. All Rights Reserved.</p>
         </div>
     </footer>
 
