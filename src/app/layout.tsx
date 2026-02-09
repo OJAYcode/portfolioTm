@@ -14,6 +14,13 @@ export const metadata: Metadata = {
   title: "Oluwole Oluwole — Developer Portfolio",
   description:
     "Professional Web & Mobile App Developer with expertise in React, React Native, TypeScript, and Cybersecurity.",
+  metadataBase: new URL('https://portfolio-tm-one.vercel.app'),
+  openGraph: {
+    title: "Oluwole Oluwole — Developer Portfolio",
+    description:
+      "Professional Web & Mobile App Developer with expertise in React, React Native, TypeScript, and Cybersecurity.",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
@@ -22,12 +29,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={inter.variable}>
-      <body className={inter.className}>
+    <html lang="en" className={inter.variable} suppressHydrationWarning>
+      <body className={inter.className} suppressHydrationWarning>
         {children}
         <Script
           src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-          strategy="beforeInteractive"
+          strategy="lazyOnload"
         />
       </body>
     </html>
