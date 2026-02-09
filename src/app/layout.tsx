@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title: "Oluwole Oluwole — Developer Portfolio",
   description:
     "Professional Web & Mobile App Developer with expertise in React, React Native, TypeScript, and Cybersecurity.",
-  metadataBase: new URL('https://portfolio-tm-one.vercel.app'),
+  metadataBase: new URL("https://portfolio-tm-one.vercel.app"),
   openGraph: {
     title: "Oluwole Oluwole — Developer Portfolio",
     description:
